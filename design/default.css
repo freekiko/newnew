@@ -1,6 +1,100 @@
-h1 { 
-    color: red;
-    
-    }
+.nul {
+    border: 1px black solid;
+    border-radius: 15px;
 
-/* je ne sais pas */
+    
+}
+
+body {
+    background-color: #f4f7f6;
+    border: silver double 10px;
+}
+
+.bateau {
+   text-align: center;
+   border: black solid 5px ;
+   border-radius: 10px;
+    
+
+} 
+
+p { 
+
+    font-family: "ranille";
+}
+h1 {
+
+    font-family:"cream";
+    text-align: center;
+    background-color: black;
+    
+   
+   
+    
+} 
+
+
+/*police*/
+
+@font-face { 
+
+    font-family: "cream";
+    src: url(../src/cream-DEMO.ttf) format('truetype');
+    
+ }
+
+ @font-face {  
+     
+    font-family: "ranille";
+    src: url(../src/Ranille.ttf) format('truetype');
+
+}
+a {
+
+color: black;
+text-decoration: none;
+font-family: "ranille",'Times New Roman', Times, serif;
+}
+
+
+img {
+
+    text-align: center;
+
+}
+
+
+ul {
+    list-style-type: none;
+    padding: 0%;
+}
+
+header {
+
+    text-align: center;
+    background-color: #1d1d1d;
+    color: white;
+    
+}
+section { 
+    text-align: center;
+
+}
+h3 {
+    font-size: 1.5em;
+}
+h2 {
+    font-size: 1.5em;
+}
+nav {
+    text-align: center;
+    background-color: white;
+    text-shadow: 0px 3px 1 px -1px rgba(200, 200, 200, 0,5);
+    font-size: 1.1em;
+
+}
+footer {
+    background-color: #1d1d1d;
+    color: white;
+   
+}
